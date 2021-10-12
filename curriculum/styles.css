@@ -1,0 +1,264 @@
+html{ 
+    scroll-behavior: smooth;
+    }
+
+
+body{ 
+margin: 0;
+padding: 0;
+background-color: rgb(217, 226, 226);
+}
+
+.contenedor{ 
+    width: 80%;
+    margin: auto;
+    background-color: rgba(176, 160, 255, 0.589);
+    
+    }
+
+
+.header{ 
+   background-color: rgba(176, 160, 255, 0.589);
+   padding: 30px;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-around;
+align-items: center;
+    
+}
+
+h1{ 
+    font-family: 'Spartan', sans-serif;
+    font-size: 26px;
+     
+ }
+
+.a{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: black;
+    border-radius: 10px;
+    background-color: rgb(224, 219, 236);
+     text-decoration: none;
+     padding: 5px;
+     margin: 5px;
+     }
+
+     .a:hover {
+        background-color: rgba(136, 124, 187, 0.61);
+      }
+   
+
+.poster{ 
+ background-color: rgba(136, 124, 187, 0.61);
+ display: flex;
+ flex-direction: row;
+        
+  }
+
+.parrafo { 
+   font-size: 20px;
+   text-align: center;
+   font-family: 'Quicksand', sans-serif;
+   margin-top: 85px;
+   padding: 30px;
+     }
+
+    
+ h2{ 
+        font-size: 30px;
+        font-family: 'Quicksand', sans-serif;
+        margin-top: 20px;
+      margin-left: 550px;
+          }
+
+.cajasflexbox { 
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+justify-content: space-around;
+
+}
+
+
+.cajas{ 
+    display: flex;
+    background-color: rgb(231, 228, 238);
+    width: 31%;
+    padding-bottom: 5%;
+    margin-bottom:5%;
+
+}
+
+.pcajas { 
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+padding-top: 40px;
+}  
+     
+
+.flexbox2{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}  
+
+h4{ 
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 20px;
+  margin-left: 480px;
+}  
+
+
+
+.premios{ 
+    background-color: rgb(231, 228, 238);
+    width: 38%;
+    padding: 5%;
+}  
+
+li{ 
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+   margin-left: 50px;
+   
+}  
+
+.homenajes { 
+    background-color: rgb(231, 228, 238);
+    width: 38%;
+    padding: 5%;
+}  
+
+.aliados{ 
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+   
+}  
+
+.link{
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 15px;
+color: black;
+text-decoration: none;
+padding: 5px;
+background-color: rgb(150, 142, 180);
+border-radius: 20px;
+margin-left: 170px;
+} 
+
+h5{ 
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 60px;
+  margin-left: 550px;;
+}  
+
+
+.programas{ 
+    background-color:rgba(136, 124, 187, 0.61);
+    display: flex;
+    flex-direction: row;
+     }
+
+
+     .parrafoprogramas { 
+    font-size: 20px;
+     text-align: center;
+     font-family: 'Quicksand', sans-serif;
+     margin-top: 170px;
+     padding: 30px;
+    }
+
+
+
+
+ @media (max-width: 580px) {
+    
+.contenedor{
+width: 100%;
+
+ }
+  
+ h1{
+    font-size: 13px;
+    margin-left: -20px;
+    }
+
+.a {
+     font-size: 10px;
+    }
+
+.poster{
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+
+.imagen{
+    width: 70%;
+    }
+
+    .parrafo{
+        font-size: 15px;
+        margin-top: 0;
+        }
+
+.h2 {
+    font-size: 20px;
+    margin: auto;
+    }
+
+.cajasflexbox{
+    width: 100%;
+    flex-direction: column;
+    }
+
+.cajas{
+    width: 80%;
+    margin: 5px;
+    }
+
+.flexbox2{
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    }
+
+h4{
+    font-size: 20px;
+    margin: auto;
+    }
+
+
+
+
+
+.premios{
+    width: 80%;
+    justify-content: center;
+    margin: 5px;
+    }
+
+    .homenajes{
+        width: 80%;
+        justify-content: center;
+        margin: 5px;
+        }
+
+
+        .h5{
+            font-size: 20px;
+            margin: auto;
+            }
+
+}
