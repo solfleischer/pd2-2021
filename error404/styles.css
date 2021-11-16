@@ -28,8 +28,8 @@ background-color: rgb(228, 228, 224);
         animation-iteration-count: infinite;
         animation-timing-function: steps(5);
     position: absolute;
-    left: 5%;
-    top: 4%;
+    left: 1%;
+    top: -4%;
           }
 
 .contenedor2{ 
