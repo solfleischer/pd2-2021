@@ -8,11 +8,18 @@ background: linear-gradient(rgb(247, 245, 247), rgb(97, 89, 110));
     font-family: 'Rubik', sans-serif;
     text-decoration: none;
     
+
      }
 
       .navbar-light .navbar-nav .nav-link{ 
             color: rgb(119, 112, 182);
              }
+
+
+
+             .fondo{ 
+              background: rgba(231, 230, 230, 0.466);
+               }
 
 
 button{ 
