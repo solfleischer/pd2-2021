@@ -1,0 +1,262 @@
+body{
+background: linear-gradient(rgb(247, 245, 247), rgb(97, 89, 110));
+
+}
+
+.links{ 
+    color: rgb(189, 126, 226);
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    
+
+     }
+
+      .navbar-light .navbar-nav .nav-link{ 
+            color: rgb(85, 60, 117);
+             }
+
+
+
+             .fondo{ 
+              background: rgba(231, 230, 230, 0.466);
+               }
+
+
+button{ 
+    color: thistle;
+     }
+    
+    .bg1 { 
+        background: thistle;
+         }
+
+     .bg2{ 
+        background: rgb(202, 184, 211);
+         }
+
+.position{ 
+   position: absolute;
+   left: 70%;
+   top: 40%;
+     }
+
+     .position2{ 
+       display: flex;
+       flex-direction: row;
+        }
+
+        .position3{ 
+    position: absolute;
+      left: 90%;
+           }
+
+           .position4{ 
+            position: absolute;
+              left: 87%;
+                   }
+
+                   .position5{ 
+                    position: absolute;
+                      left: 83%;
+                           }
+
+     .tamaño{ 
+        font-size: 40px;
+          }
+
+          .tamaño2{ 
+            font-size: 20px;
+              }
+
+
+          .letra{ 
+            font-family: 'Rubik', sans-serif;
+            color:rgb(94, 58, 117);
+             }
+
+
+.negro{ 
+  color:black;
+   }
+
+
+
+.letra2{ 
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    font-size: 20px;
+     }
+
+    .margin{ 
+       margin-left: 17%;
+         }
+
+
+         .letra3{ 
+             color: rgb(104, 75, 128);
+         font-family: 'Rubik', sans-serif;
+        }
+
+
+        .letra4{ 
+          font-family: 'Raleway', sans-serif;
+          color: white;
+          font-size: 20px;
+          text-align: center;
+           }
+
+           .letra5{ 
+            font-family: 'Raleway', sans-serif;
+            color: rgb(104, 75, 128);
+            font-size: 30px;
+            font-weight: bold;
+             }
+
+
+             .letra6{ 
+              color: rgb(104, 75, 128);
+          font-family: 'Rubik', sans-serif;
+          text-align: center;
+
+
+        }
+
+           .logo {
+          width: 50%;
+      }
+.none {
+  background: none;
+}
+
+        
+        CSS MEET AND GREET
+      
+      .textocris  { 
+      
+          font-size: 40px;
+          text-align: center;
+          margin: auto;
+          color: rgba(255, 255, 255, 0.925);
+          font-family: 'Raleway', sans-serif;
+          
+      
+      }
+      .imagencris  { 
+          width: 30%;
+          flex-flow: wrap;
+          float: right;
+          margin-right: 90px;
+          margin-top: 20px;
+      }
+      
+      .cris { 
+          width: 100%;
+          border-radius: 50%;
+          box-shadow: 0 0 20px black;
+      }
+      
+      
+      
+      .data{ 
+          width: 50%;
+          margin: 0 auto;
+          margin-top: 60px;
+         border: 2px solid rgba(7, 19, 18, 0.575);
+         color: rgba(255, 255, 255, 0.925);
+         font-family: 'Raleway', sans-serif;
+         background-color:  rgba(7, 19, 18, 0.575);
+        
+      }
+      
+      
+      #formulario{ 
+          width: 60%;
+          margin: 0 auto;
+          padding: 20px;
+          font-size: 18px;
+        
+      }
+      #formulario div { 
+         margin-bottom: 30px;
+         
+      }
+      #formulario input { 
+          width: 100%;
+         padding: 8px;
+         border: 1px solid black;
+         box-sizing: border-box;
+       }
+      
+       #formulario select { 
+          width: 100%;
+         padding: 8px;
+         border: 1px solid black;
+         box-sizing: border-box;
+      }
+      
+      
+      h3 { 
+          font-size: 30px;
+          text-align: center;
+          margin: auto;
+          margin-top: 10px;
+          font-family: 'Raleway', sans-serif;
+          color: rgba(255, 255, 255, 0.925);
+      }
+      
+      #formulario button{ 
+         width: 30%;
+         padding: 10px;
+         background-color: rgba(32, 165, 165, 0.781);
+         margin-left: 150px;
+         border: 1px solid black;
+        
+      }
+      
+      #formulario button:hover{ 
+      background-color: rgb(38, 252, 252);
+       }
+      
+      
+      .contenedorimagenes{ 
+          margin-top: 55px;
+          width: 100%;
+         
+        
+       }
+      
+       .imagen1 { 
+          width: 30%;
+          float: left;
+          
+        
+       }
+       .imagen2 { 
+          width: 30%;
+          float: left;
+          margin-top: 10px;
+        
+       }
+       .imagen3 { 
+          width: 30%;
+          float: left;
+          margin-top: 10px;
+      
+       }
+       .imagenom { 
+          width: 70%;
+          border-radius: 100%;
+          margin-left: 60px;
+          box-shadow: 0 0 30px black;
+         
+       }
+      
+   
+         
+      
+       
+       
+      
+    
+        
+          
